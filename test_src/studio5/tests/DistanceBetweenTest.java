@@ -64,4 +64,9 @@ public class DistanceBetweenTest {
 		assertEquals(50.0, Methods.distanceBetween(0.0, 30.0, 0.0, 40.0), 1e-5);
 	}
 
+	@Test
+	public void testPointsE(){
+		assertEquals(5.0, Methods.distanceBetween(8.0, 9.0, 5.0, 5.0 ), 1e-5);
+	}
+
 }
